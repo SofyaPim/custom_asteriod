@@ -219,7 +219,7 @@ window.addEventListener("load", function () {
             this.spriteTimer = 0;
             this.spriteUpdate = true;
           }
-          console.log(this.spriteUpdate);
+          
       this.asteroidPool.forEach((asteroid) => {
         asteroid.draw(context);
         asteroid.update();
@@ -540,4 +540,5 @@ window.addEventListener("load", function () {
 //   }
 //   animate(0);
 // });
+
 
