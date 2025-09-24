@@ -19,7 +19,7 @@ p{
 }
 #canvas1{
    border: 5px solid rgba(146, 148, 248, 0.4);
-   background: url('/assets/bg1_.png');
+   background: url('assets/bg1_.png');
    position: absolute;
    top: 50%;
    left: 50%;
@@ -129,3 +129,4 @@ a {
 .btn:hover:before {
   left: 100%;
 }
+
