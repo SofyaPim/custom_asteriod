@@ -72,8 +72,12 @@ window.addEventListener("load", function () {
         if (this.lives < 1 && this.game.spriteUpdate) {
           
           this.frameX++;
-          if (this.frameX > this.maxFrame) {
+           if(this.frameX === 2){
             this.play();        
+
+          }
+          if (this.frameX > this.maxFrame) {
+                
             this.reset();
             this.game.score += this.lives;
           }
@@ -536,3 +540,4 @@ window.addEventListener("load", function () {
 //   }
 //   animate(0);
 // });
+
