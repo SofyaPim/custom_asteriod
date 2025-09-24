@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Jura:wght@300..700&display=swap" rel="stylesheet">
+   <title>Asteroid Optimisation</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="rules">
+      <div class="content">
+         <h1 class="gradient">Save the world from disaster</h1>
+         <p>A huge cluster of asteroids threatening your planet is moving at an incredible speed. </p>
+         <p> Mission objective: Shoot down 50 asteroids.</p>
+         <p> Each asteroid requires three accurate hits.</p>
+         <p>if the asteroid flies by unharmed, the chances of escape decrease.</p>
+          <div class="container">
+      <a href="#" class="btn" id="start_mission">Start the mission!</a>
+      
+         </div>
+         <div class="content hidden" id="win" >
+            <div class="container"><a href="#" class="btn" id="end_mission">Go to bonus!</a></div>
+         </div>
+         <div class="content hidden" id="lose">
+         <div class="container"><a href="#" class="btn" id="fall_mission">Go back!</a></div>
+         </div>
+   
+   
+</div>
+</div>
+
+<canvas id="canvas1" class="hidden"></canvas>
+   <div class="hidden">  
+      <img id="explosions_" src="assets/explosions_.png" alt="explosions">
+   </div>
+   <audio src="assets/explosion1.wav" id="explosion1"></audio>
+   <audio src="assets/explosion2.wav" id="explosion2"></audio>
+   <audio src="assets/explosion3.wav" id="explosion3"></audio>
+   <audio src="assets/explosion4.wav" id="explosion4"></audio>
+   <audio src="assets/explosion5.wav" id="explosion5"></audio>
+   <audio src="assets/explosion6.wav" id="explosion6"></audio>
+   <script src="script.js"></script>
+</body>
+
+</html>
